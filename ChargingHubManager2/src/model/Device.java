@@ -1,6 +1,6 @@
 package model;
 
-public abstract class Device {
+public abstract class Device implements Chargeable {
 
     protected String deviceID;
     protected int batteryLevel;
